@@ -18,6 +18,3 @@ unzip main.zip
 echo "Copiando arquivos..."
 cd linux-site-dio-main
 cp -R * /var/www/html/
-
-echo "Habilitando permissões..."
-chmod +x create-server-mysql-iac.sh
