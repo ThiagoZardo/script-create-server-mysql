@@ -15,9 +15,6 @@ wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.z
 echo "Descompactando..."
 unzip main.zip
 
-echo "Adicionando permissoes"
-sudo chmod +w /var/www/html
-
 echo "Copiando arquivos..."
 cd linux-site-dio-main
-cp -R * /var/www/html/
+sudo cp -R * /var/www/html/
