@@ -1,12 +1,12 @@
 #!/bin/bash
 
 echo "Atualizando server..."
-apt-get update
-apt-get upgrade -y
+sudo apt-get update
+sudo apt-get upgrade -y
 
 echo "Instalando dependencias..."
-apt-get install apache2 -y
-apt-get install unzip -y
+sudo apt-get install apache2 -y
+sudo apt-get install unzip -y
 
 echo "Baixando repositorio..."
 cd /tmp
